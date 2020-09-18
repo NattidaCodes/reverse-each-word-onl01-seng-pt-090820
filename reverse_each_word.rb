@@ -1,4 +1,5 @@
-def reverse_each_word(sentence1)
-  sentence1.each do |reverse|
+def reverse_each_word(sentence)
+  sentence.each do |reverse|
+    sentence
   end
 end
