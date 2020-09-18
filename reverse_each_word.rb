@@ -1,5 +1,7 @@
 def reverse_each_word(sentence)
-  sentence.each do |reverse_word|
-    puts "Hello there, and how are you?"
+  my_sentence = []
+  sentence.each do |reverse|
+    my_sentence << sentence.reverse
   end
+  my_sentence
 end
